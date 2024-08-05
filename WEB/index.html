@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.main.css" ref="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">PROFIL <span></span></a>
+
+        <i class="bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="favorit.html">FAVORIT</a>
+            <a href="idola.html">IDOLA</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="saya.jpg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, It's <span>Anisa Stevani</span></h1>
+            <h3 class="text-animation"><span></span></h3>
+            <p></p>
+            
+
+            <div class="social-icon">
+                <a href="http://tiktok.com/@ilrdvient"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjNJREFUSEu1lE9oE1EQxr95Sf178mJ2rQhaFRHEkyJIPXjxIgVRUEEKuy22h1qbNQfx0p7Eg91VD4LabI1ireLBfyB49CKKoL2oB0GEkk1ABKGiickb2cTE3TV0s03ybrvvzfebmTffI3R4UYf1EQqwVfMtGD2VRJhm9HxyOEpSiwLubLi6plD89aUuSLirO8ZQ2wDphHmWCOc6ArAT1n4QZgFeUQe02qJM9+RWWcZmZtEH4mMAhK8drQLSqnmdGK5w49XqHdiqeQ2M456e/wZDAljelikKAB7ESEyUWD4hYKMXkO6e3EmSxhn4BsaHkpCZoWzqa6OyfWN6c+2VnjJK/H0ZHGPe+OkGpBVzLgiwE5eOguQNj2CBBE5rWWMmCAk1WpOAiq4Usn8wm3rohSwNoFhHABgAb/dNGlFuYXVsx+in0UINsiRALdh1erFYMBl8uPaPwSMDuTO32gKoPE9gmlasNwC2uN9E9FhzkieaBtiq+Q6MTdW3DrMDjnEyeJF+/9Ccnkv2RgBYz8G8pxpAH/VccncQYCvWa4C3VSvAS80xDkQA+M0nSR4cdFIvagJT6sV9gsXTuiDhguYY55sGTK2z9grJz7xZM3CbiOYBjoExAmDV3wqLcY7v6s+f+tw0wD1oK1YG4EONnOqbeYHhoNlCx9QVuL/eXLlQpkf/7uI/1A+wGNPzY/ciO9kbMK2avczQAOoDuIuA90x4FZddl71tieTksLaE7TfVojCRxfb/ADOA8hmdQM4WAAAAAElFTkSuQmCC"/></a>
+                <a href="https://open.spotify.com/playlist/5cULgTDwObxleptcQwJbqB?si=SCXOyOM0QBmYeo5I_8Yuvg&pt=d56df700d5c6af2cbd4aa29faa5498bf"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAyRJREFUSEu1Vk1sVFUYPedNnaFUE2RB35ThR0NIDOz9SSHBCAiJIdFYY9CYmWFFWpyZohgjfwtW2hnYGJvQTiEuTOMCQzQYMCwguLAJgWBCogi0pe+VVEUDQdN59+ib9rXzhum0NOnd3XfPd879fu8jFnhxgflRV6C4+uAi/PP0a4ZmqyWsE7gSlAjeMtIVEOcGnb9OH8bh0kwXnVGgaHdtF6zPACXqekn8Kpg9aWfvxVq4mgK9dv4AgL1zDh/hAdZHKSfTXW3ziECP3XWIYG7O5BVACdn0aK6n0jYkMBEWfjUf8kkbI+KVtJMbCDimBE42f9pUshouQ7JruDkm4kcCPwsUoAjFZYLigpYRXAVg6YQdrz3pLt/QhjavvAvIepsLu0DlJ/cieVowZ+TxUvpu7rfZvCrGC69L6iuTWtYbyZHM2ZBAj53vJ/CqgOFYpGHLO3f2DPuAfvRH7rcMPU+DDYZ4gbJiBEqiGYU4RHFYwC0C60QdmbiIulNu5wdhD+KF65BaQF5JOpmNfc2F9SBzgrYBWFwGk1cl/E2IIuIQE4CiNbwbSLm5l0MCRTs/KqCxqgIeGuBrSN8vijVe2Dm4+8/Kc0H8IlFoiZWwBoBfHE2TebibcrP+t4oc2IU7gJ6aIiDOaXy8PT22b6S7pXvxE96DzaQfQq4iYETjyPCGReuGBY558HyB4IK/p9zcM9U5GCCwNhDwjNfaEI0+RMnsF7B9hlDUzL0fyqSTba3yoKsH4Js1LO4R/EEylyNW5NR7TmYwwPiexfSg1QDvQtgxXfs8mXSz7SGBPjvfZoDj4RzwVDQae1/3S96/sfG3KL4IcKpPSPxhjM7DwrMUOgJbA769y81+GxLIJ/KNS0rwO3BFABTwOWndhMyh6QTO1hG8ftu991IwYUOj4oR9bJMH75vZKOqcG8LanHQzP02Hqwrdaxc+BPTJPEU6/q+eE1Wl/ihV0e7aJ/DjyjKuK1ge1+pIOZ1fVuNmfHB640e3AjpW7u766xdY6kiNdF6qBZvTkymYbQSeC55MiDcJ+JP3bNNo4rtgcj62wDzzEDJb8L+K/wCTPTkoT8q2LwAAAABJRU5ErkJggg=="/></a>
+                <a href="https://www.instagram.com/a.nisaaaaaaaaaaaaa?igsh=aWoxZHQxdTdrbjZo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAq5JREFUSEvFlUtoE1EUhv8z07TpKhbFTHzgY1nFFy6KTxAXii6KoKJiMTOtgqiYiXVb3AVsZxaKNEgzUkHEbhRdirqwFReCj1J8IMVNZxJUWkENTWaOTG3azGSqEQm9q8v5zz3fOece7iXUeFGN42N+AP3RK6tsKp4BeAsDzcCciTABIwANkSNeO5E799HfkYoK+mI9HQRKgRH6p/YRCsycVKzkjfJzHoCxVN/ANj8BIPxT8GlnIirC4Z3xrPqmdN4DyMT0W2De74pMnCwWhAehOn4OYEHVQMI92VSPBwL6JG2EgGWuaDv2to5c5+uMpL0ASAKgg/kDCfjKEJoBToLZtXsWA6OKpa4PBBiSlmWg0RWJYDLwgxhhRxBalbHz79JLuhe52qmxC5/TTalIKNwwAOYWD4HwTTbVqSSn4pQ2aaRDIen7F39GIrC7AEAEHWY4293rYcIgOXSbnMlPEOtelZKaDpmXrcTiCoCxsivM+UjOl8192VSPZSStG8BJ73TQ9biVSGaiei+Ij85qNClbialK/1oBA5cUS+3JSPoQwGu91dFIvj6/t3Gy4QgDqRmNYMum2lQB6EKXsEKKjJcHKQGMmPaUGet8gOF8fX5fuNB4COxcLtNYttRIBYDBZEj6hK8Nd+NWoq1P0lIEnPbBexVLvWhIej+DW8sqKMimurAqgOvEhF0Ecgh8kBlbQUTMPCiSOEBsizbw0JsUfsYtNVoBcA3lYzqbEY2xjbiSSzwrD2REe1qY6CaAmWC/b5UmZDOxPBCQiWkvwVjtH9XpeXgMOG9BwjgzbyRgT5AfA+8VS90cDJA096E6EAyozsqEO4qpts9Rgb4JzI/+57GzneKO9mzncCDANdb0uS5RfR/Omj80Z+bDEbnualv27Kjfd36+zOquszqvmlfwC/qpFigc2R6uAAAAAElFTkSuQmCC"/></a>
+                <a href="https://youtube.com/@anstvn?si=4P9lL7we2IGQKDb7"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcVJREFUSEvtlbtrFFEUxn9ndEGjsD4wbh74iNgomMZSC7HS2kqrmfFRCMJeSw3pRBSzCBZG0Sg2/hWCiKWFKIKPwkLJVYOEYEBcdz4ZcYfssJsZiNvldvd+53y/c787MEafl/XZn1VAYcIdEc1su1ZjTeWyYExoxGB3oQMI7C0wh+l9s2lXz83VZ9t9GWBm9Obe5HfrqcHGEqa9S4wFkx0Kff1jWpQB7m9v3MZ0ckXm/5oFj2LvzncChhrPkMb/BwB4EXl3pBNQm0qvtKUHQBYEJ6TkOmKsaAjBp9i7fXnAPBD0aE4i7zZNMrl2V616VjABbFgGNB95tyMDTA9PD1SSRb9MgyLvqm394citra3k1wQiXPqObV3wI/ZuOAOkk+2sVb/3BBitaNZtLgsA+xn5+mA+ooUiwN+IhqqnhV1Cym7Upe9b5N2ePCCNaKArxGiZdEpmV0o+8rvYu4M5QOMNaLToCymjGzwPvTuWBzwGHS9jUFRj2IPQ1y90AO7UpvZX4IlgfZFBka5Eh+OvF192ANLNvcEb40EQnJHxOd1LOmrYAdC6LqaLGK+RNduawQeku+EX92rJWdE8K9NX/2iF+fU9oj8xF50Z1KiUcwAAAABJRU5ErkJggg=="/></a>
+            </div>
+
+            <a href="about.html" class="btn">About Me</a>
+        </div>
+    </section>
+</body>
+</html>
